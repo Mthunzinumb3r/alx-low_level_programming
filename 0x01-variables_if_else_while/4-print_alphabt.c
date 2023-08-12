@@ -7,14 +7,14 @@
  */
 int main(void)
 {
-	char alpha[24] = "abcdfghijklmnoprstuvwxyz";
+	char alpha[26] = "abcdefghijklmnopqrstuvwxyz";
 	int i;
-
-        for (i = 0; i < 26; i++)
+	
+	for (i = 0; i < 26; i++)
         {
-		if (i != 5 && i != 18)
+		if (i != 4 && i != 17)
 			putchar(alpha[i]);
-        }
+	}
 	putchar('\n');
 	return (0);
 }
