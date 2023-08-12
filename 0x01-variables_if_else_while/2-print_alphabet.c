@@ -13,7 +13,6 @@ int main(void)
 	for (i = 0; i < 26; i++)
 	{
 		putchar(alpha[i]);
-		alpha++
 	}
 	putchar("\n")
 	return 0;
