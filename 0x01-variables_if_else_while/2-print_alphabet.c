@@ -7,10 +7,11 @@
  */
 int main(void)
 {
-	char alpha = 'a';
-	while(alpha <= 'z')
+	char alpha[26] = 'a';
+	int i;
+	while(i <= 26)
 	{
-		putchar("%c", alpha);
+		putchar(alpha[i]);
 		alpha++
 	}
 	putchar("\n")
