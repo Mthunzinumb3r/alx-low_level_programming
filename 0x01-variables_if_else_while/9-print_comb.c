@@ -7,16 +7,17 @@
  */
 int main()
 {
-    for (int i = 0; i < 10; i++)
-    {
-            putchar(i + '0');
+	int n;
 
-            if (i != 9)
-	    {
-                putchar(',');
-		putchar(' ');
-            }
-    }
-    putchar('\n');
-    return 0;
+	for (n = 48; n < 58; n++)
+	{
+		putchar(n);
+		if (n != 57)
+		{
+			putchar(',');
+			putchar(' ');
+		}
+	}
+	putchar('\n');
+	return (0);
 }
