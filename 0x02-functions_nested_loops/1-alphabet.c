@@ -2,9 +2,7 @@
 #include "main.h"
 
 /**
- * main - prints alphabets a lowercase
- *
- * Return: always 0.
+ * main - prints alphabets in a lowercase
  */
 
 void print_alphabet(void)
@@ -16,6 +14,17 @@ void print_alphabet(void)
 	}
 	putchar('\n');
 }
+
+1-main.c CODE
+
+#include "main.h"
+
+/**
+ * main - check the code
+ *
+ * Return: Always 0.
+ *
+ */
 
 int main()
 {
