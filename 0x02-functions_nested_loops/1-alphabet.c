@@ -7,15 +7,20 @@
  * Return: Always 0.
  */
 
+void print_alphabet(void);
+
 int main(void)
 {
-	void print_alphabet(void)
-	{
-		char alpha;
+	print_alphabet(void);
+	return 0;
+}
 
-		for(alpha = 'a';alpha <= 'z'; alpha++)
-			putchar(alpha);
-	}
-	putchar('\n');
-	return (0);
+void print_alphabet(void)
+{
+    char alpha;
+    for(alpha = 'a'; alpha <= 'z'; alpha++)
+    {
+        putchar(alpha);
+    }
+    putchar('\n');
 }
