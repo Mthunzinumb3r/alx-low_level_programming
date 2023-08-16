@@ -2,22 +2,25 @@
 #include "main.h"
 
 /**
- * main - print all alphabets in lowercase
+ * main - prints alphabets a lowercase
  *
- * Return: Always 0.
+ * Return: always 0.
  */
 
-void print_alphabet(void)
+void print_alphabet(void);
 
-int main(void)
+int main()
 {
 	print_alphabet();
+	return 0;
+}
 
-	char alpha;
-	for(alpha = 'a'; alpha <= 'z'; alpha++)
+void print_alphabet(void)
+{
+	char letter;
+	for (letter = 'a'; letter <= 'z'; letter++)
 	{
-	    putchar(alpha);
+		putchar(letter);
 	}
-    putchar('\n');
-    return (0);
+	putchar('\n');
 }
