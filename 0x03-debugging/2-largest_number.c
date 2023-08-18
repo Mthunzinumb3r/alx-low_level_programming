@@ -27,3 +27,16 @@ int largest_number(int a, int b, int c)
 
 	return (largest);
 }
+
+int main()
+{
+    int a, b, c;
+
+    printf("Enter three numbers: ");
+    scanf("%d %d %d", &a, &b, &c);
+
+    int result = largest_number(a, b, c);
+    printf("The largest number is: %d\n", result);
+
+    return 0;
+}
