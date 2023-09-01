@@ -10,7 +10,7 @@
 
 int factorial(int n)
 {
-	int i, r;
+	int i, result = 1;
 
 	if (n < 0)
 	{
@@ -24,8 +24,8 @@ int factorial(int n)
 	{
 		for (i = 1; i <= n; ++i)
 		{
-			r *= i;
+			result *= i;
 		}
-		return (r);
+		return (n);
 	}
 }
